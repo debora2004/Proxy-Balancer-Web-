@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Labs</title>
 </head>
 <body>
-    <h1 style="color: rgb(192, 56, 192);"> Web 1 <br> - Hello, I'm Abi and I'm team #pasta</h1>
+    <style>
+        main{
+            margin: 100px;
+        }
+
+        h1{
+            font-size: 60px;
+        }
+
+        button{
+            padding: 50px !important;
+            margin-left: 48%;
+        }
+
+        .article{
+            font-size: 30px;
+        }
+
+        .img-lampara{
+            width: 137px;
+            transform: rotate(180deg);
+            margin-left: 50%;
+            margin-top: -775px;
+        }
+    </style>
+    <nav style="
+        background-color: rgb(243 216 241);" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="https://www.freepnglogos.com/uploads/logo-internet-png/logo-internet-chemiphase-updated-website-goes-live-chemiphase-ltd-12.png" width="60px" alt="">
+          <a class="navbar-brand" href="#">Proxy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Créditos</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+      <main>
+        <h1 style="color: rgb(192, 56, 192);"> Proxy Webs</h1>
+        <p class="article">El objetivo de este laboratorio es poder realizar un balanceador con webs.
+            <br> Ahora estas en el Servidor 1
+        </p>
+        <button type="button" id="refresh" class="btn btn-outline-info">Click here!</button>
+              
+            <img src="https://ouch-cdn2.icons8.com/1C5m4NHRwj_fzGYShu1Fv86-3j-pyVe_H-C1V2IhBzo/rs:fit:256:396/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMzUz/L2M3NDU4MWY5LTAw/YjAtNDJjZS1hODk5/LTg4NmU2NmU0OWVk/YS5zdmc.png" class="img-lampara" alt="">
+         
+    </main>
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+        let refresh = document.getElementById('refresh');
+        refresh.addEventListener('click', _ => {
+            location.reload();
+            }
+        )
+    </script>
 </body>
 </html>
